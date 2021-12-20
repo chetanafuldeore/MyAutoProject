@@ -1,0 +1,34 @@
+package controlStatement;
+
+public class Voting {
+	public static void main(String[] args) {
+		
+		int age=125; 
+		
+		if(age>=18)
+		{
+			System.out.println("Eligible for Voting");
+			if(age>=51 && age<=100)
+			{
+				System.out.println("Go to First Floor");
+			}
+			else if(age>=101 && age<=120)
+			{
+				System.out.println("Go to Ground Floor");
+			}
+			else if(age>=18 && age<=50)
+			{
+				System.out.println("Go to Second Floor");
+			}
+			else if(age>=121)
+			{
+				System.out.println("Plz Go to Home Bcoz of over age and take care");
+			}
+		}
+		else
+		{
+			System.out.println("Go to home");
+		}
+	}
+
+}
